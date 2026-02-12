@@ -5,4 +5,4 @@ for items in n:
     s.append(items*items)
 
 
-print(s,end="fuck")
+print(s)
