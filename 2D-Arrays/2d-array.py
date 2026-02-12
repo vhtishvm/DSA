@@ -1,8 +1,8 @@
-n = 5
-m = 2
-arr = [[]]
-for i in range(0,6):
-    for j in range(0,3):
-        arr[i][j] = 0
+arr = []
+for i in range(10):
+    arr.append("akash")
+
 
 print(arr)
+ar = ["akash"]*5
+print(ar)
