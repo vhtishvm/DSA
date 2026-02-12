@@ -1,8 +1,11 @@
 arr = [[]]
+n = 5
+m = 2
 
-arr.append(0)
+for i in range(5):
+    for j in range(2):
+        arr[i].append(0)
+    arr.append([])
 
-print(arr)
-arr[0].append(1)
-arr[0].append(124)
+
 print(arr)
