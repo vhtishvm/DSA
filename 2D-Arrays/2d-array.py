@@ -1,8 +1,8 @@
-arr = []
-for i in range(10):
-    arr.append("akash")
+arr = [[]]
 
+arr.append(0)
 
 print(arr)
-ar = ["akash"]*5
-print(ar)
+arr[0].append(1)
+arr[0].append(124)
+print(arr)
