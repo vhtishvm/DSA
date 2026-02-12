@@ -6,3 +6,7 @@ for items in n:
 
 
 print(s)
+
+#Finally learnt list comprehension
+x = [x*2 for x in range(6)]
+print(x)
