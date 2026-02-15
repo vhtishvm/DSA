@@ -1,8 +1,11 @@
 #Pattern printing
-n = 6
-m = 4
+n = 5 
+m = 5
 
-for i in range(6):
-    for j in range(i+1):
-        print(i+1,end="")
+for i in range(5):
+    for j in range(5):
+        if (i+j)%2 == 0:
+            print(0,end="")
+        else:
+            print(1,end="")
     print("")
